@@ -23,7 +23,9 @@ export function useMenuDragger(containerRef, data) {
                     left: e.offsetX,
                     zIndex: 1,
                     key: currentComponent.key,
-                    alignCenter: true // 希望松手的时候你可以居中
+                    alignCenter: true, // 希望松手的时候你可以居中
+                    props: {},
+                    model: {}
                 }
             ]
         }
